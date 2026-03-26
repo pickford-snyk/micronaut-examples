@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:25.8.2-bookworm
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
