@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:26.5.0-trixie
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
